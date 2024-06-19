@@ -25,7 +25,7 @@ plt.figure(figsize=(14, 10))
 sns.violinplot(x='Temperature', y='Rating', data=data_long, palette='muted', cut=0, inner=None, linewidth=4)
 
 # median dots
-sns.swarmplot(x='Temperature', y='Rating', data=data_long, color='white', size=7, marker='o', edgecolor='black', linewidth=2)
+sns.swarmplot(x='Temperature', y='Rating', data=data_long, color='white', size=14, marker='o', edgecolor='black', linewidth=2)
 
 plt.xlabel('Temperature (°C)', fontsize=34)
 plt.ylabel('Comfort Rating (scale 1-9)', fontsize=34)
