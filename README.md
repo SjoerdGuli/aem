@@ -6,7 +6,7 @@ In this repository, our code for the course Applied Experimental Methods for the
 ## Clone repository
 To clone the repository, run the following code:
 ```sh
-git clone ...
+git clone https://github.com/SjoerdGuli/aem.git
 ```
 
 ## Code
