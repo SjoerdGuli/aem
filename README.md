@@ -1,7 +1,7 @@
 # Repository Group 4 Applied Experimental Methods
 
 ## Introduction
-In this repository, our code for the course Applied Experimental Methods for the TU Delft is presented. For testing, we used the Feelpen and we gathered data on comfort when using the pen with different temperature settings. We did this using a Likert scale, this data can be found in data.csv.
+In this repository, our code for the course Applied Experimental Methods for the TU Delft is presented. For testing, we used the Feelpen and we gathered data on comfort when using the pen with different temperature settings. We did this using a Likert scale, this data can be found in data.csv. In the data, score_setting# is linked to the different temperatures, where: score_setting 1 = 20 degrees, score_setting2 = 25 degrees, score_setting3 = 30 degrees, score_setting4 = 35 degrees and score_setting5 = 40 degrees.
 
 ## Clone repository
 To clone the repository, run the following code:
