@@ -21,11 +21,10 @@ temperature_mapping = {
 data_long['Temperature'] = data_long['Temperature'].map(temperature_mapping)
 
 # Violin plot
-plt.figure(figsize=(12, 8))
+plt.figure(figsize=(14, 10))
 sns.violinplot(x='Temperature', y='Rating', data=data_long, palette='muted', cut=0, inner=None, linewidth=4)
 
 # median dots
-medians = data_long.groupby('Temperature')['Rating'].median().values
 sns.swarmplot(x='Temperature', y='Rating', data=data_long, color='white', size=7, marker='o', edgecolor='black', linewidth=2)
 
 plt.xlabel('Temperature (°C)', fontsize=34)
@@ -33,6 +32,9 @@ plt.ylabel('Comfort Rating (scale 1-9)', fontsize=34)
 plt.xticks(fontsize=36)
 plt.yticks(fontsize=36)
 plt.ylim(1, 9)
-plt.grid(linewidth=1.5)
+plt.grid(linewidth=1.5, linestyle='--')
+plt.gca().spines['top'].set_visible(False)
+plt.gca().spines['right'].set_visible(False)
 
+plt.tight_layout()
 plt.show()
