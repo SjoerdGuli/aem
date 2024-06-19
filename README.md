@@ -7,6 +7,7 @@ In this repository, our code for the course Applied Experimental Methods for the
 To clone the repository, run the following code:
 ```sh
 git clone https://github.com/SjoerdGuli/aem.git
+pip install -r requirements.txt
 ```
 
 ## Code
